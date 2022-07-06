@@ -73,10 +73,10 @@ public class Scene implements IScene {
         for (CoreSentence sentence : document.sentences()) {
             switch(sentence.sentiment().toLowerCase()) {
             case "very positive":
-                sentiScore += 2;
+                sentiScore += 4;
                 break;
             case "positive":
-                sentiScore += 1;
+                sentiScore += 2;
                 break;
             case "negative":
                 sentiScore -= 1;

@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "name": "ADULT MELVIN",
+      "count": 1
+    },
+    {
+      "name": "MARY",
+      "count": 2
+    },
+    {
+      "name": "MELVIN",
+      "count": 9
+    }
+  ],
+  "links": [{
+    "sentiment": 3,
+    "weight": 2,
+    "source": "MARY",
+    "target": "MELVIN"
+  }]
+}

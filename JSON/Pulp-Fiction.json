@@ -1,0 +1,284 @@
+{
+  "nodes": [
+    {
+      "name": "BRETT",
+      "count": 2
+    },
+    {
+      "name": "BUTCH",
+      "count": 15
+    },
+    {
+      "name": "ENGLISH DAVE",
+      "count": 3
+    },
+    {
+      "name": "ESMARELDA",
+      "count": 3
+    },
+    {
+      "name": "FABIENNE",
+      "count": 2
+    },
+    {
+      "name": "HONEY BUNNY",
+      "count": 3
+    },
+    {
+      "name": "JIMMIE",
+      "count": 7
+    },
+    {
+      "name": "JODY",
+      "count": 4
+    },
+    {
+      "name": "JULES",
+      "count": 22
+    },
+    {
+      "name": "LANCE",
+      "count": 6
+    },
+    {
+      "name": "MANAGER",
+      "count": 2
+    },
+    {
+      "name": "MARSELLUS",
+      "count": 7
+    },
+    {
+      "name": "MARVIN",
+      "count": 2
+    },
+    {
+      "name": "MAYNARD",
+      "count": 2
+    },
+    {
+      "name": "MIA",
+      "count": 16
+    },
+    {
+      "name": "PUMPKIN",
+      "count": 3
+    },
+    {
+      "name": "SPORTSCASTER #1",
+      "count": 3
+    },
+    {
+      "name": "SPORTSCASTER #2",
+      "count": 2
+    },
+    {
+      "name": "THE WOLF",
+      "count": 8
+    },
+    {
+      "name": "VINCENT",
+      "count": 35
+    }
+  ],
+  "links": [
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "BRETT",
+      "target": "BUTCH"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "BRETT",
+      "target": "JULES"
+    },
+    {
+      "sentiment": -1,
+      "weight": 3,
+      "source": "BUTCH",
+      "target": "ESMARELDA"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "BUTCH",
+      "target": "FABIENNE"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "BUTCH",
+      "target": "JULES"
+    },
+    {
+      "sentiment": -9,
+      "weight": 4,
+      "source": "BUTCH",
+      "target": "MARSELLUS"
+    },
+    {
+      "sentiment": 1,
+      "weight": 3,
+      "source": "BUTCH",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "ENGLISH DAVE",
+      "target": "MARSELLUS"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "ENGLISH DAVE",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "HONEY BUNNY",
+      "target": "JULES"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "HONEY BUNNY",
+      "target": "MANAGER"
+    },
+    {
+      "sentiment": -19,
+      "weight": 3,
+      "source": "HONEY BUNNY",
+      "target": "PUMPKIN"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "HONEY BUNNY",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": 9,
+      "weight": 4,
+      "source": "JIMMIE",
+      "target": "JULES"
+    },
+    {
+      "sentiment": 17,
+      "weight": 6,
+      "source": "JIMMIE",
+      "target": "THE WOLF"
+    },
+    {
+      "sentiment": -8,
+      "weight": 2,
+      "source": "JIMMIE",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": -35,
+      "weight": 4,
+      "source": "JODY",
+      "target": "LANCE"
+    },
+    {
+      "sentiment": -35,
+      "weight": 4,
+      "source": "JODY",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "JULES",
+      "target": "MANAGER"
+    },
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "JULES",
+      "target": "MARSELLUS"
+    },
+    {
+      "sentiment": -15,
+      "weight": 2,
+      "source": "JULES",
+      "target": "MARVIN"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "JULES",
+      "target": "PUMPKIN"
+    },
+    {
+      "sentiment": 6,
+      "weight": 4,
+      "source": "JULES",
+      "target": "THE WOLF"
+    },
+    {
+      "sentiment": -24,
+      "weight": 18,
+      "source": "JULES",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": -39,
+      "weight": 6,
+      "source": "LANCE",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "MANAGER",
+      "target": "PUMPKIN"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "MANAGER",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": 5,
+      "weight": 3,
+      "source": "MARSELLUS",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": -15,
+      "weight": 2,
+      "source": "MARVIN",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": -6,
+      "weight": 9,
+      "source": "MIA",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "PUMPKIN",
+      "target": "VINCENT"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "SPORTSCASTER #1",
+      "target": "SPORTSCASTER #2"
+    },
+    {
+      "sentiment": -4,
+      "weight": 3,
+      "source": "THE WOLF",
+      "target": "VINCENT"
+    }
+  ]
+}

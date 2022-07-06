@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jialin Cai</title>
+</head>
+<body>
+
+<h1>Script Visualizer</h1>
+<div>
+  <p>Select a preloaded script to demo.</p>
+  <select name="script" value="/../../../../../JSON/Avengers-The.json" id="scriptSelect">
+    <option value="/../../../../../JSON/Avengers-The.json">The Avengers</option>
+    <option value="/../../../../../JSON/Forrest-Gump.json">Forrest Gump</option>
+    <option value="/../../../../../JSON/Indiana-Jones-and-the-Raiders-of-the-Lost-Ark.json">Indiana Jones</option>
+    <option value="/../../../../../JSON/Lord-of-the-Rings-Fellowship-of-the-Ring,-The.json">Lord of the Rings</option>
+    <option value="/../../../../../JSON/Pulp-Fiction.json">Pulp Fiction</option>
+    <option value="/../../../../../JSON/Star-Wars-A-New-Hope.json">Star Wars</option>
+    <option value="/../../../../../JSON/Toy-Story.json">Toy Story</option>
+  </select> 
+
+  <p>This edge weight slider can filter out insignificant relationships.</p>
+  <div class="slidecontainer">
+    <input type="range" min="1" max="10" value="1" class="slider" id="myRange">
+  </div>
+</div>
+<canvas id="network" width="1200" height="600"></canvas>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/graph.js"></script>
+
+</body>
+</html>

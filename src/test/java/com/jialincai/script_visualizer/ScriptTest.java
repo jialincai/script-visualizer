@@ -2,12 +2,6 @@ package com.jialincai.script_visualizer;
 
 import org.junit.Test;
 
-import com.jialincai.script_visualizer.Character;
-import com.jialincai.script_visualizer.IRelation;
-import com.jialincai.script_visualizer.IScene;
-import com.jialincai.script_visualizer.Relation;
-import com.jialincai.script_visualizer.Script;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -104,6 +98,12 @@ public class ScriptTest {
         assertEquals(2, selectedScenes.size());
         assertEquals("EXT.   CARPARK   -   DAY.", iter.next().getHeader());
         assertEquals("EXT.   PARK   -   DAY.", iter.next().getHeader());
+    }
+    
+    @Test
+    public void testExportJSON() {
+        // Manually check that exported file is okay.
+        assertTrue(script.exportJSON("JSON/test.json", 1));
     }
     
 }

@@ -9,8 +9,6 @@ import java.util.TreeSet;
 
 import org.junit.Test;
 
-import com.jialincai.script_visualizer.Scene;
-
 public class SceneTest {
     
     @Test

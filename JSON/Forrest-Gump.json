@@ -1,0 +1,482 @@
+{
+  "nodes": [
+    {
+      "name": "ANCHORMAN",
+      "count": 6
+    },
+    {
+      "name": "ANNOUNCER",
+      "count": 3
+    },
+    {
+      "name": "BLACK WOMAN",
+      "count": 2
+    },
+    {
+      "name": "BOY",
+      "count": 2
+    },
+    {
+      "name": "BOY #1",
+      "count": 2
+    },
+    {
+      "name": "BOY #2",
+      "count": 3
+    },
+    {
+      "name": "BOY #3",
+      "count": 2
+    },
+    {
+      "name": "BUBBA",
+      "count": 6
+    },
+    {
+      "name": "CARLA",
+      "count": 2
+    },
+    {
+      "name": "CHET HUNTLEY",
+      "count": 3
+    },
+    {
+      "name": "CROWD",
+      "count": 5
+    },
+    {
+      "name": "DICK CLARK",
+      "count": 2
+    },
+    {
+      "name": "DOCTOR",
+      "count": 2
+    },
+    {
+      "name": "ELDERLY WOMAN",
+      "count": 4
+    },
+    {
+      "name": "ELVIS",
+      "count": 2
+    },
+    {
+      "name": "FOOTBALL COACH",
+      "count": 3
+    },
+    {
+      "name": "FORREST",
+      "count": 162
+    },
+    {
+      "name": "FORREST JR.",
+      "count": 3
+    },
+    {
+      "name": "GIRL",
+      "count": 2
+    },
+    {
+      "name": "GOVERNOR WALLACE",
+      "count": 2
+    },
+    {
+      "name": "JENNY",
+      "count": 29
+    },
+    {
+      "name": "KATZENBACH",
+      "count": 2
+    },
+    {
+      "name": "LENORE",
+      "count": 2
+    },
+    {
+      "name": "LOUISE",
+      "count": 4
+    },
+    {
+      "name": "LT. DAN",
+      "count": 18
+    },
+    {
+      "name": "MAN",
+      "count": 2
+    },
+    {
+      "name": "MRS. BLUE",
+      "count": 2
+    },
+    {
+      "name": "MRS. GUMP",
+      "count": 17
+    },
+    {
+      "name": "NEWSCASTER",
+      "count": 5
+    },
+    {
+      "name": "NEWSMAN",
+      "count": 4
+    },
+    {
+      "name": "OFFICER",
+      "count": 2
+    },
+    {
+      "name": "OLD SHRIMPER",
+      "count": 2
+    },
+    {
+      "name": "OLDER BOY #1",
+      "count": 2
+    },
+    {
+      "name": "PRESIDENT JOHNSON",
+      "count": 2
+    },
+    {
+      "name": "PRESIDENT NIXON",
+      "count": 2
+    },
+    {
+      "name": "PRINCIPAL",
+      "count": 5
+    },
+    {
+      "name": "SGT. SIMS",
+      "count": 5
+    },
+    {
+      "name": "SOLDIER",
+      "count": 3
+    },
+    {
+      "name": "SONG",
+      "count": 4
+    },
+    {
+      "name": "WESLEY",
+      "count": 2
+    },
+    {
+      "name": "YOUNG MAN",
+      "count": 3
+    }
+  ],
+  "links": [
+    {
+      "sentiment": 1,
+      "weight": 3,
+      "source": "ANCHORMAN",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": -9,
+      "weight": 3,
+      "source": "ANNOUNCER",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": -2,
+      "weight": 2,
+      "source": "BLACK WOMAN",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BOY #1",
+      "target": "BOY #2"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BOY #1",
+      "target": "BOY #3"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BOY #1",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BOY #2",
+      "target": "BOY #3"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BOY #2",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BOY #3",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": 16,
+      "weight": 6,
+      "source": "BUBBA",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BUBBA",
+      "target": "LT. DAN"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BUBBA",
+      "target": "SGT. SIMS"
+    },
+    {
+      "sentiment": 0,
+      "weight": 3,
+      "source": "BUBBA",
+      "target": "SONG"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "CARLA",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "CARLA",
+      "target": "LENORE"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "CARLA",
+      "target": "LT. DAN"
+    },
+    {
+      "sentiment": 9,
+      "weight": 5,
+      "source": "CROWD",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": -2,
+      "weight": 2,
+      "source": "CROWD",
+      "target": "JENNY"
+    },
+    {
+      "sentiment": 3,
+      "weight": 2,
+      "source": "DICK CLARK",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "DOCTOR",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "DOCTOR",
+      "target": "MRS. GUMP"
+    },
+    {
+      "sentiment": 2,
+      "weight": 4,
+      "source": "ELDERLY WOMAN",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "ELVIS",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "ELVIS",
+      "target": "MRS. GUMP"
+    },
+    {
+      "sentiment": -5,
+      "weight": 3,
+      "source": "FOOTBALL COACH",
+      "target": "FORREST"
+    },
+    {
+      "sentiment": 17,
+      "weight": 3,
+      "source": "FORREST",
+      "target": "FORREST JR."
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "FORREST",
+      "target": "GIRL"
+    },
+    {
+      "sentiment": -6,
+      "weight": 26,
+      "source": "FORREST",
+      "target": "JENNY"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "FORREST",
+      "target": "LENORE"
+    },
+    {
+      "sentiment": -1,
+      "weight": 4,
+      "source": "FORREST",
+      "target": "LOUISE"
+    },
+    {
+      "sentiment": -13,
+      "weight": 17,
+      "source": "FORREST",
+      "target": "LT. DAN"
+    },
+    {
+      "sentiment": 9,
+      "weight": 2,
+      "source": "FORREST",
+      "target": "MAN"
+    },
+    {
+      "sentiment": 3,
+      "weight": 2,
+      "source": "FORREST",
+      "target": "MRS. BLUE"
+    },
+    {
+      "sentiment": 13,
+      "weight": 15,
+      "source": "FORREST",
+      "target": "MRS. GUMP"
+    },
+    {
+      "sentiment": -3,
+      "weight": 3,
+      "source": "FORREST",
+      "target": "NEWSCASTER"
+    },
+    {
+      "sentiment": -2,
+      "weight": 2,
+      "source": "FORREST",
+      "target": "NEWSMAN"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "FORREST",
+      "target": "OFFICER"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "FORREST",
+      "target": "OLD SHRIMPER"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "FORREST",
+      "target": "PRESIDENT NIXON"
+    },
+    {
+      "sentiment": -4,
+      "weight": 5,
+      "source": "FORREST",
+      "target": "SGT. SIMS"
+    },
+    {
+      "sentiment": -12,
+      "weight": 3,
+      "source": "FORREST",
+      "target": "SOLDIER"
+    },
+    {
+      "sentiment": -1,
+      "weight": 4,
+      "source": "FORREST",
+      "target": "SONG"
+    },
+    {
+      "sentiment": -5,
+      "weight": 2,
+      "source": "FORREST",
+      "target": "WESLEY"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "FORREST",
+      "target": "YOUNG MAN"
+    },
+    {
+      "sentiment": 4,
+      "weight": 2,
+      "source": "JENNY",
+      "target": "OLDER BOY #1"
+    },
+    {
+      "sentiment": -5,
+      "weight": 2,
+      "source": "JENNY",
+      "target": "WESLEY"
+    },
+    {
+      "sentiment": -14,
+      "weight": 2,
+      "source": "LENORE",
+      "target": "LT. DAN"
+    },
+    {
+      "sentiment": -4,
+      "weight": 5,
+      "source": "LT. DAN",
+      "target": "SGT. SIMS"
+    },
+    {
+      "sentiment": -6,
+      "weight": 2,
+      "source": "LT. DAN",
+      "target": "SOLDIER"
+    },
+    {
+      "sentiment": -1,
+      "weight": 3,
+      "source": "LT. DAN",
+      "target": "SONG"
+    },
+    {
+      "sentiment": 3,
+      "weight": 3,
+      "source": "MRS. GUMP",
+      "target": "PRINCIPAL"
+    },
+    {
+      "sentiment": -1,
+      "weight": 3,
+      "source": "SGT. SIMS",
+      "target": "SONG"
+    }
+  ]
+}

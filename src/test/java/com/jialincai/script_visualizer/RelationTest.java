@@ -5,8 +5,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.jialincai.script_visualizer.Relation;
-
 public class RelationTest {
     
     @Test

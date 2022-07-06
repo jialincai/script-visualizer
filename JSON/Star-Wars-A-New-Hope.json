@@ -1,0 +1,344 @@
+{
+  "nodes": [
+    {
+      "name": "AUNT BERU",
+      "count": 3
+    },
+    {
+      "name": "BEN",
+      "count": 21
+    },
+    {
+      "name": "BEN'S VOICE",
+      "count": 6
+    },
+    {
+      "name": "BIGGS",
+      "count": 17
+    },
+    {
+      "name": "CAMIE",
+      "count": 2
+    },
+    {
+      "name": "DEATH STAR INTERCOM VOICE",
+      "count": 3
+    },
+    {
+      "name": "DODONNA",
+      "count": 2
+    },
+    {
+      "name": "FIRST TROOPER",
+      "count": 4
+    },
+    {
+      "name": "FIXER",
+      "count": 2
+    },
+    {
+      "name": "GOLD FIVE",
+      "count": 7
+    },
+    {
+      "name": "GOLD LEADER",
+      "count": 13
+    },
+    {
+      "name": "HAN",
+      "count": 40
+    },
+    {
+      "name": "IMPERIAL OFFICER",
+      "count": 2
+    },
+    {
+      "name": "INTERCOM VOICE",
+      "count": 4
+    },
+    {
+      "name": "LEIA",
+      "count": 24
+    },
+    {
+      "name": "LUKE",
+      "count": 87
+    },
+    {
+      "name": "MASSASSI INTERCOM VOICE",
+      "count": 3
+    },
+    {
+      "name": "MOTTI",
+      "count": 2
+    },
+    {
+      "name": "OFFICER",
+      "count": 6
+    },
+    {
+      "name": "OWEN",
+      "count": 5
+    },
+    {
+      "name": "RED LEADER",
+      "count": 32
+    },
+    {
+      "name": "RED TEN",
+      "count": 6
+    },
+    {
+      "name": "SECOND TROOPER",
+      "count": 2
+    },
+    {
+      "name": "TARKIN",
+      "count": 10
+    },
+    {
+      "name": "THREEPIO",
+      "count": 41
+    },
+    {
+      "name": "TROOPER",
+      "count": 10
+    },
+    {
+      "name": "VADER",
+      "count": 23
+    },
+    {
+      "name": "VOICE",
+      "count": 3
+    },
+    {
+      "name": "WEDGE",
+      "count": 14
+    }
+  ],
+  "links": [
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "AUNT BERU",
+      "target": "LUKE"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "AUNT BERU",
+      "target": "OWEN"
+    },
+    {
+      "sentiment": 18,
+      "weight": 2,
+      "source": "BEN'S VOICE",
+      "target": "LEIA"
+    },
+    {
+      "sentiment": 18,
+      "weight": 2,
+      "source": "BEN'S VOICE",
+      "target": "LUKE"
+    },
+    {
+      "sentiment": -3,
+      "weight": 9,
+      "source": "BEN",
+      "target": "HAN"
+    },
+    {
+      "sentiment": -43,
+      "weight": 19,
+      "source": "BEN",
+      "target": "LUKE"
+    },
+    {
+      "sentiment": -2,
+      "weight": 6,
+      "source": "BEN",
+      "target": "THREEPIO"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "BEN",
+      "target": "TROOPER"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "BIGGS",
+      "target": "CAMIE"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "BIGGS",
+      "target": "FIXER"
+    },
+    {
+      "sentiment": 24,
+      "weight": 4,
+      "source": "BIGGS",
+      "target": "LUKE"
+    },
+    {
+      "sentiment": 1,
+      "weight": 3,
+      "source": "BIGGS",
+      "target": "RED LEADER"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "BIGGS",
+      "target": "WEDGE"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "CAMIE",
+      "target": "FIXER"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "CAMIE",
+      "target": "LUKE"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "FIRST TROOPER",
+      "target": "SECOND TROOPER"
+    },
+    {
+      "sentiment": 3,
+      "weight": 2,
+      "source": "FIRST TROOPER",
+      "target": "THREEPIO"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "FIXER",
+      "target": "LUKE"
+    },
+    {
+      "sentiment": -3,
+      "weight": 13,
+      "source": "HAN",
+      "target": "LEIA"
+    },
+    {
+      "sentiment": -5,
+      "weight": 26,
+      "source": "HAN",
+      "target": "LUKE"
+    },
+    {
+      "sentiment": 30,
+      "weight": 6,
+      "source": "HAN",
+      "target": "THREEPIO"
+    },
+    {
+      "sentiment": 5,
+      "weight": 2,
+      "source": "IMPERIAL OFFICER",
+      "target": "VADER"
+    },
+    {
+      "sentiment": 24,
+      "weight": 17,
+      "source": "LEIA",
+      "target": "LUKE"
+    },
+    {
+      "sentiment": 29,
+      "weight": 6,
+      "source": "LEIA",
+      "target": "THREEPIO"
+    },
+    {
+      "sentiment": -8,
+      "weight": 3,
+      "source": "LUKE",
+      "target": "OWEN"
+    },
+    {
+      "sentiment": 0,
+      "weight": 3,
+      "source": "LUKE",
+      "target": "RED LEADER"
+    },
+    {
+      "sentiment": 21,
+      "weight": 18,
+      "source": "LUKE",
+      "target": "THREEPIO"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "LUKE",
+      "target": "TROOPER"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "LUKE",
+      "target": "WEDGE"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "MOTTI",
+      "target": "TARKIN"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "OFFICER",
+      "target": "VOICE"
+    },
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "OWEN",
+      "target": "THREEPIO"
+    },
+    {
+      "sentiment": -1,
+      "weight": 3,
+      "source": "RED LEADER",
+      "target": "WEDGE"
+    },
+    {
+      "sentiment": 11,
+      "weight": 6,
+      "source": "TARKIN",
+      "target": "VADER"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "TARKIN",
+      "target": "VOICE"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "THREEPIO",
+      "target": "TROOPER"
+    },
+    {
+      "sentiment": -2,
+      "weight": 2,
+      "source": "VADER",
+      "target": "VOICE"
+    }
+  ]
+}

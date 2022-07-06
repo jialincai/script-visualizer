@@ -34,4 +34,10 @@ public interface IScript {
      * @return The entire script.
      */
     String getText();
+    
+    /**
+     * Exports script nodes and edges to a JSON file.
+     * @return True if file was successfully created. False otherwise.
+     */
+    boolean exportJSON(String outputPath, int threshold);
 }

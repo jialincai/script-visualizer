@@ -1,0 +1,612 @@
+{
+  "nodes": [
+    {
+      "name": "(A BEAT)",
+      "count": 4
+    },
+    {
+      "name": "(LAUGHS)",
+      "count": 3
+    },
+    {
+      "name": "(SMILING)",
+      "count": 5
+    },
+    {
+      "name": "(TO JARVIS)",
+      "count": 2
+    },
+    {
+      "name": "(TURNING)",
+      "count": 2
+    },
+    {
+      "name": "(WALKIE TALKIE)",
+      "count": 2
+    },
+    {
+      "name": "(WALKING IN)",
+      "count": 2
+    },
+    {
+      "name": "AGENT JASPER SITWELL",
+      "count": 4
+    },
+    {
+      "name": "AGENT MARIA HILL",
+      "count": 11
+    },
+    {
+      "name": "AGENT PHIL COULSON",
+      "count": 14
+    },
+    {
+      "name": "BACK AT THE LAB",
+      "count": 2
+    },
+    {
+      "name": "BANNER",
+      "count": 14
+    },
+    {
+      "name": "BARTON",
+      "count": 3
+    },
+    {
+      "name": "BLACK WIDOW",
+      "count": 12
+    },
+    {
+      "name": "CAPTAIN AMERICA",
+      "count": 22
+    },
+    {
+      "name": "CLINT BARTON",
+      "count": 5
+    },
+    {
+      "name": "ESCORT 606 PILOT",
+      "count": 2
+    },
+    {
+      "name": "HAWKEYE",
+      "count": 7
+    },
+    {
+      "name": "IRON MAN",
+      "count": 16
+    },
+    {
+      "name": "JARVIS",
+      "count": 8
+    },
+    {
+      "name": "LOKI",
+      "count": 18
+    },
+    {
+      "name": "NATASHA",
+      "count": 16
+    },
+    {
+      "name": "NICK FURY",
+      "count": 36
+    },
+    {
+      "name": "OUTSIDE THE HELICARRIER",
+      "count": 3
+    },
+    {
+      "name": "PEPPER",
+      "count": 2
+    },
+    {
+      "name": "SELVIG",
+      "count": 4
+    },
+    {
+      "name": "SHIELD SCIENTIST",
+      "count": 2
+    },
+    {
+      "name": "STEVE",
+      "count": 15
+    },
+    {
+      "name": "THE OTHER",
+      "count": 2
+    },
+    {
+      "name": "THOR",
+      "count": 16
+    },
+    {
+      "name": "TONY",
+      "count": 26
+    },
+    {
+      "name": "WORLD SECURITY COUNCIL #1",
+      "count": 3
+    },
+    {
+      "name": "WORLD SECURITY COUNCIL #2",
+      "count": 4
+    }
+  ],
+  "links": [
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "(A BEAT)",
+      "target": "BANNER"
+    },
+    {
+      "sentiment": -6,
+      "weight": 2,
+      "source": "(A BEAT)",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "(A BEAT)",
+      "target": "STEVE"
+    },
+    {
+      "sentiment": 1,
+      "weight": 2,
+      "source": "(A BEAT)",
+      "target": "THOR"
+    },
+    {
+      "sentiment": -3,
+      "weight": 3,
+      "source": "(A BEAT)",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -17,
+      "weight": 3,
+      "source": "(LAUGHS)",
+      "target": "LOKI"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "(LAUGHS)",
+      "target": "NATASHA"
+    },
+    {
+      "sentiment": -6,
+      "weight": 2,
+      "source": "(SMILING)",
+      "target": "BANNER"
+    },
+    {
+      "sentiment": -9,
+      "weight": 2,
+      "source": "(SMILING)",
+      "target": "LOKI"
+    },
+    {
+      "sentiment": -6,
+      "weight": 2,
+      "source": "(SMILING)",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": -6,
+      "weight": 2,
+      "source": "(SMILING)",
+      "target": "STEVE"
+    },
+    {
+      "sentiment": -15,
+      "weight": 3,
+      "source": "(SMILING)",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -5,
+      "weight": 2,
+      "source": "(TURNING)",
+      "target": "LOKI"
+    },
+    {
+      "sentiment": 4,
+      "weight": 2,
+      "source": "(WALKIE TALKIE)",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "(WALKING IN)",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "(WALKING IN)",
+      "target": "THOR"
+    },
+    {
+      "sentiment": -4,
+      "weight": 3,
+      "source": "AGENT JASPER SITWELL",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": 11,
+      "weight": 7,
+      "source": "AGENT MARIA HILL",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": 8,
+      "weight": 2,
+      "source": "AGENT PHIL COULSON",
+      "target": "BANNER"
+    },
+    {
+      "sentiment": -5,
+      "weight": 2,
+      "source": "AGENT PHIL COULSON",
+      "target": "LOKI"
+    },
+    {
+      "sentiment": 18,
+      "weight": 3,
+      "source": "AGENT PHIL COULSON",
+      "target": "NATASHA"
+    },
+    {
+      "sentiment": -3,
+      "weight": 6,
+      "source": "AGENT PHIL COULSON",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": 9,
+      "weight": 3,
+      "source": "AGENT PHIL COULSON",
+      "target": "STEVE"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "AGENT PHIL COULSON",
+      "target": "THOR"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BACK AT THE LAB",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "BANNER",
+      "target": "BLACK WIDOW"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "BANNER",
+      "target": "CAPTAIN AMERICA"
+    },
+    {
+      "sentiment": 5,
+      "weight": 6,
+      "source": "BANNER",
+      "target": "NATASHA"
+    },
+    {
+      "sentiment": -21,
+      "weight": 5,
+      "source": "BANNER",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "BANNER",
+      "target": "OUTSIDE THE HELICARRIER"
+    },
+    {
+      "sentiment": -39,
+      "weight": 6,
+      "source": "BANNER",
+      "target": "STEVE"
+    },
+    {
+      "sentiment": -35,
+      "weight": 5,
+      "source": "BANNER",
+      "target": "THOR"
+    },
+    {
+      "sentiment": -53,
+      "weight": 6,
+      "source": "BANNER",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -7,
+      "weight": 5,
+      "source": "BLACK WIDOW",
+      "target": "CAPTAIN AMERICA"
+    },
+    {
+      "sentiment": -3,
+      "weight": 5,
+      "source": "BLACK WIDOW",
+      "target": "HAWKEYE"
+    },
+    {
+      "sentiment": -5,
+      "weight": 3,
+      "source": "BLACK WIDOW",
+      "target": "IRON MAN"
+    },
+    {
+      "sentiment": 1,
+      "weight": 4,
+      "source": "CAPTAIN AMERICA",
+      "target": "HAWKEYE"
+    },
+    {
+      "sentiment": -16,
+      "weight": 8,
+      "source": "CAPTAIN AMERICA",
+      "target": "IRON MAN"
+    },
+    {
+      "sentiment": -9,
+      "weight": 2,
+      "source": "CAPTAIN AMERICA",
+      "target": "LOKI"
+    },
+    {
+      "sentiment": -8,
+      "weight": 3,
+      "source": "CAPTAIN AMERICA",
+      "target": "NATASHA"
+    },
+    {
+      "sentiment": -6,
+      "weight": 3,
+      "source": "CAPTAIN AMERICA",
+      "target": "THOR"
+    },
+    {
+      "sentiment": -10,
+      "weight": 7,
+      "source": "CAPTAIN AMERICA",
+      "target": "TONY"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "CLINT BARTON",
+      "target": "LOKI"
+    },
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "CLINT BARTON",
+      "target": "NATASHA"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "CLINT BARTON",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "CLINT BARTON",
+      "target": "SELVIG"
+    },
+    {
+      "sentiment": 4,
+      "weight": 3,
+      "source": "HAWKEYE",
+      "target": "IRON MAN"
+    },
+    {
+      "sentiment": 3,
+      "weight": 2,
+      "source": "HAWKEYE",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -4,
+      "weight": 4,
+      "source": "IRON MAN",
+      "target": "JARVIS"
+    },
+    {
+      "sentiment": -9,
+      "weight": 2,
+      "source": "IRON MAN",
+      "target": "LOKI"
+    },
+    {
+      "sentiment": -9,
+      "weight": 2,
+      "source": "IRON MAN",
+      "target": "NATASHA"
+    },
+    {
+      "sentiment": -4,
+      "weight": 3,
+      "source": "IRON MAN",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": -6,
+      "weight": 2,
+      "source": "IRON MAN",
+      "target": "THOR"
+    },
+    {
+      "sentiment": -14,
+      "weight": 6,
+      "source": "IRON MAN",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -9,
+      "weight": 2,
+      "source": "JARVIS",
+      "target": "PEPPER"
+    },
+    {
+      "sentiment": -6,
+      "weight": 5,
+      "source": "JARVIS",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -26,
+      "weight": 4,
+      "source": "LOKI",
+      "target": "NATASHA"
+    },
+    {
+      "sentiment": -5,
+      "weight": 4,
+      "source": "LOKI",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "LOKI",
+      "target": "SELVIG"
+    },
+    {
+      "sentiment": -5,
+      "weight": 4,
+      "source": "LOKI",
+      "target": "THOR"
+    },
+    {
+      "sentiment": -9,
+      "weight": 2,
+      "source": "LOKI",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -20,
+      "weight": 4,
+      "source": "NATASHA",
+      "target": "NICK FURY"
+    },
+    {
+      "sentiment": -24,
+      "weight": 5,
+      "source": "NATASHA",
+      "target": "STEVE"
+    },
+    {
+      "sentiment": -19,
+      "weight": 2,
+      "source": "NATASHA",
+      "target": "THOR"
+    },
+    {
+      "sentiment": -11,
+      "weight": 3,
+      "source": "NATASHA",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "NICK FURY",
+      "target": "OUTSIDE THE HELICARRIER"
+    },
+    {
+      "sentiment": -33,
+      "weight": 8,
+      "source": "NICK FURY",
+      "target": "STEVE"
+    },
+    {
+      "sentiment": -32,
+      "weight": 5,
+      "source": "NICK FURY",
+      "target": "THOR"
+    },
+    {
+      "sentiment": -22,
+      "weight": 7,
+      "source": "NICK FURY",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -5,
+      "weight": 3,
+      "source": "NICK FURY",
+      "target": "WORLD SECURITY COUNCIL #1"
+    },
+    {
+      "sentiment": -5,
+      "weight": 3,
+      "source": "NICK FURY",
+      "target": "WORLD SECURITY COUNCIL #2"
+    },
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "OUTSIDE THE HELICARRIER",
+      "target": "STEVE"
+    },
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "OUTSIDE THE HELICARRIER",
+      "target": "THOR"
+    },
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "OUTSIDE THE HELICARRIER",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -9,
+      "weight": 2,
+      "source": "PEPPER",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -29,
+      "weight": 4,
+      "source": "STEVE",
+      "target": "THOR"
+    },
+    {
+      "sentiment": -39,
+      "weight": 9,
+      "source": "STEVE",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -26,
+      "weight": 7,
+      "source": "THOR",
+      "target": "TONY"
+    },
+    {
+      "sentiment": -5,
+      "weight": 3,
+      "source": "WORLD SECURITY COUNCIL #1",
+      "target": "WORLD SECURITY COUNCIL #2"
+    }
+  ]
+}

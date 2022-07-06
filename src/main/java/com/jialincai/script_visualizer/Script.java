@@ -1,5 +1,6 @@
 package com.jialincai.script_visualizer;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,6 +11,8 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -286,6 +289,52 @@ public class Script implements IScript {
     @Override
     public String getText() {
         return scriptElement.text();
+    }
+
+    @Override
+    public boolean exportJSON(String outputPath, int threshold) {
+        JSONArray nodeArray = new JSONArray();
+        JSONArray linkArray = new JSONArray();
+        JSONObject main = new JSONObject();
+        
+        for (Map.Entry<String, ICharacter> e : characters.entrySet()) {
+            ICharacter character = e.getValue();
+            if (character.getCount() > threshold) {
+                JSONObject node = new JSONObject();
+                node.put("name", character.getName());
+                node.put("count", character.getCount());
+                nodeArray.put(node);
+            }
+        }
+        for (Map.Entry<String, IRelation> e : relations.entrySet()) {
+            IRelation relation = e.getValue();
+            if (relation.getWeight() > threshold) {
+                JSONObject link = new JSONObject();
+                link.put("source", relation.getCharacters()[0]);
+                link.put("target", relation.getCharacters()[1]);
+                link.put("weight", relation.getWeight());
+                link.put("sentiment", relation.getSentiment());
+                linkArray.put(link);
+            }
+        }
+        
+        main.put("nodes", nodeArray);
+        main.put("links", linkArray);
+        
+        try {
+            FileWriter file = new FileWriter(outputPath);
+            file.write(main.toString(2));
+            file.close();
+            return true;
+         } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+         }
+    }
+    
+    public static void main(String args[]) {
+        Script s = new Script("https://imsdb.com/scripts/Pulp-Fiction.html");
+        s.exportJSON("JSON/Pulp-Fiction.json", 1);
     }
 
 }

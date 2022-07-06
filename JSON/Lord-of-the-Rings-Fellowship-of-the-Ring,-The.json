@@ -1,0 +1,420 @@
+{
+  "nodes": [
+    {
+      "name": "ARAGORN",
+      "count": 16
+    },
+    {
+      "name": "ARWEN",
+      "count": 7
+    },
+    {
+      "name": "BILBO",
+      "count": 11
+    },
+    {
+      "name": "BOROMIR",
+      "count": 14
+    },
+    {
+      "name": "BUTTERBUR",
+      "count": 2
+    },
+    {
+      "name": "ELROND",
+      "count": 6
+    },
+    {
+      "name": "FARMER MAGGOT",
+      "count": 2
+    },
+    {
+      "name": "FRO DO",
+      "count": 2
+    },
+    {
+      "name": "FRODO",
+      "count": 43
+    },
+    {
+      "name": "GALADRIEL",
+      "count": 6
+    },
+    {
+      "name": "GANDALF",
+      "count": 46
+    },
+    {
+      "name": "GIMLI",
+      "count": 11
+    },
+    {
+      "name": "GOLLUM",
+      "count": 3
+    },
+    {
+      "name": "LEGOLAS",
+      "count": 10
+    },
+    {
+      "name": "LURTZ",
+      "count": 2
+    },
+    {
+      "name": "MERRY",
+      "count": 18
+    },
+    {
+      "name": "ORC OVERSEER",
+      "count": 2
+    },
+    {
+      "name": "PIPPIN",
+      "count": 13
+    },
+    {
+      "name": "SAM",
+      "count": 27
+    },
+    {
+      "name": "SARUMAN",
+      "count": 13
+    },
+    {
+      "name": "STRIDER",
+      "count": 12
+    }
+  ],
+  "links": [
+    {
+      "sentiment": 1,
+      "weight": 8,
+      "source": "ARAGORN",
+      "target": "BOROMIR"
+    },
+    {
+      "sentiment": -4,
+      "weight": 6,
+      "source": "ARAGORN",
+      "target": "FRODO"
+    },
+    {
+      "sentiment": -1,
+      "weight": 7,
+      "source": "ARAGORN",
+      "target": "GANDALF"
+    },
+    {
+      "sentiment": -1,
+      "weight": 8,
+      "source": "ARAGORN",
+      "target": "GIMLI"
+    },
+    {
+      "sentiment": -9,
+      "weight": 8,
+      "source": "ARAGORN",
+      "target": "LEGOLAS"
+    },
+    {
+      "sentiment": 1,
+      "weight": 6,
+      "source": "ARAGORN",
+      "target": "MERRY"
+    },
+    {
+      "sentiment": -6,
+      "weight": 3,
+      "source": "ARAGORN",
+      "target": "PIPPIN"
+    },
+    {
+      "sentiment": -3,
+      "weight": 6,
+      "source": "ARAGORN",
+      "target": "SAM"
+    },
+    {
+      "sentiment": -3,
+      "weight": 3,
+      "source": "ARWEN",
+      "target": "STRIDER"
+    },
+    {
+      "sentiment": 15,
+      "weight": 5,
+      "source": "BILBO",
+      "target": "FRODO"
+    },
+    {
+      "sentiment": 9,
+      "weight": 6,
+      "source": "BILBO",
+      "target": "GANDALF"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "BILBO",
+      "target": "SAM"
+    },
+    {
+      "sentiment": -9,
+      "weight": 4,
+      "source": "BOROMIR",
+      "target": "FRODO"
+    },
+    {
+      "sentiment": -1,
+      "weight": 6,
+      "source": "BOROMIR",
+      "target": "GANDALF"
+    },
+    {
+      "sentiment": -1,
+      "weight": 5,
+      "source": "BOROMIR",
+      "target": "GIMLI"
+    },
+    {
+      "sentiment": -6,
+      "weight": 6,
+      "source": "BOROMIR",
+      "target": "LEGOLAS"
+    },
+    {
+      "sentiment": -5,
+      "weight": 4,
+      "source": "BOROMIR",
+      "target": "MERRY"
+    },
+    {
+      "sentiment": -6,
+      "weight": 3,
+      "source": "BOROMIR",
+      "target": "PIPPIN"
+    },
+    {
+      "sentiment": -4,
+      "weight": 4,
+      "source": "BOROMIR",
+      "target": "SAM"
+    },
+    {
+      "sentiment": 3,
+      "weight": 2,
+      "source": "BOROMIR",
+      "target": "STRIDER"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "BUTTERBUR",
+      "target": "FRODO"
+    },
+    {
+      "sentiment": -3,
+      "weight": 2,
+      "source": "BUTTERBUR",
+      "target": "SAM"
+    },
+    {
+      "sentiment": 3,
+      "weight": 2,
+      "source": "ELROND",
+      "target": "FRODO"
+    },
+    {
+      "sentiment": 4,
+      "weight": 4,
+      "source": "ELROND",
+      "target": "GANDALF"
+    },
+    {
+      "sentiment": 3,
+      "weight": 2,
+      "source": "ELROND",
+      "target": "SAM"
+    },
+    {
+      "sentiment": -11,
+      "weight": 2,
+      "source": "FRO DO",
+      "target": "FRODO"
+    },
+    {
+      "sentiment": -11,
+      "weight": 2,
+      "source": "FRO DO",
+      "target": "GANDALF"
+    },
+    {
+      "sentiment": -1,
+      "weight": 21,
+      "source": "FRODO",
+      "target": "GANDALF"
+    },
+    {
+      "sentiment": 6,
+      "weight": 4,
+      "source": "FRODO",
+      "target": "GIMLI"
+    },
+    {
+      "sentiment": 2,
+      "weight": 2,
+      "source": "FRODO",
+      "target": "LEGOLAS"
+    },
+    {
+      "sentiment": -6,
+      "weight": 12,
+      "source": "FRODO",
+      "target": "MERRY"
+    },
+    {
+      "sentiment": -12,
+      "weight": 8,
+      "source": "FRODO",
+      "target": "PIPPIN"
+    },
+    {
+      "sentiment": 10,
+      "weight": 20,
+      "source": "FRODO",
+      "target": "SAM"
+    },
+    {
+      "sentiment": -4,
+      "weight": 5,
+      "source": "FRODO",
+      "target": "STRIDER"
+    },
+    {
+      "sentiment": -4,
+      "weight": 2,
+      "source": "GALADRIEL",
+      "target": "SAM"
+    },
+    {
+      "sentiment": -2,
+      "weight": 7,
+      "source": "GANDALF",
+      "target": "GIMLI"
+    },
+    {
+      "sentiment": -4,
+      "weight": 5,
+      "source": "GANDALF",
+      "target": "LEGOLAS"
+    },
+    {
+      "sentiment": -2,
+      "weight": 5,
+      "source": "GANDALF",
+      "target": "MERRY"
+    },
+    {
+      "sentiment": -7,
+      "weight": 4,
+      "source": "GANDALF",
+      "target": "PIPPIN"
+    },
+    {
+      "sentiment": 6,
+      "weight": 9,
+      "source": "GANDALF",
+      "target": "SAM"
+    },
+    {
+      "sentiment": -8,
+      "weight": 5,
+      "source": "GANDALF",
+      "target": "SARUMAN"
+    },
+    {
+      "sentiment": -9,
+      "weight": 7,
+      "source": "GIMLI",
+      "target": "LEGOLAS"
+    },
+    {
+      "sentiment": 7,
+      "weight": 4,
+      "source": "GIMLI",
+      "target": "MERRY"
+    },
+    {
+      "sentiment": 1,
+      "weight": 2,
+      "source": "GIMLI",
+      "target": "PIPPIN"
+    },
+    {
+      "sentiment": 4,
+      "weight": 5,
+      "source": "GIMLI",
+      "target": "SAM"
+    },
+    {
+      "sentiment": -4,
+      "weight": 5,
+      "source": "LEGOLAS",
+      "target": "MERRY"
+    },
+    {
+      "sentiment": -6,
+      "weight": 3,
+      "source": "LEGOLAS",
+      "target": "PIPPIN"
+    },
+    {
+      "sentiment": -4,
+      "weight": 4,
+      "source": "LEGOLAS",
+      "target": "SAM"
+    },
+    {
+      "sentiment": -24,
+      "weight": 12,
+      "source": "MERRY",
+      "target": "PIPPIN"
+    },
+    {
+      "sentiment": -8,
+      "weight": 13,
+      "source": "MERRY",
+      "target": "SAM"
+    },
+    {
+      "sentiment": -3,
+      "weight": 4,
+      "source": "MERRY",
+      "target": "STRIDER"
+    },
+    {
+      "sentiment": 1,
+      "weight": 2,
+      "source": "ORC OVERSEER",
+      "target": "SARUMAN"
+    },
+    {
+      "sentiment": -12,
+      "weight": 11,
+      "source": "PIPPIN",
+      "target": "SAM"
+    },
+    {
+      "sentiment": -2,
+      "weight": 4,
+      "source": "PIPPIN",
+      "target": "STRIDER"
+    },
+    {
+      "sentiment": -8,
+      "weight": 7,
+      "source": "SAM",
+      "target": "STRIDER"
+    }
+  ]
+}

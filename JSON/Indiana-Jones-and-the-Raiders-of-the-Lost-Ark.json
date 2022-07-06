@@ -1,0 +1,164 @@
+{
+  "nodes": [
+    {
+      "name": "BELLOQ",
+      "count": 12
+    },
+    {
+      "name": "BELZIG",
+      "count": 2
+    },
+    {
+      "name": "BRODY",
+      "count": 5
+    },
+    {
+      "name": "EATON",
+      "count": 2
+    },
+    {
+      "name": "GOBLER",
+      "count": 2
+    },
+    {
+      "name": "HUNGRY GERMAN",
+      "count": 3
+    },
+    {
+      "name": "INDY",
+      "count": 42
+    },
+    {
+      "name": "KATANGA",
+      "count": 2
+    },
+    {
+      "name": "KEHOE",
+      "count": 2
+    },
+    {
+      "name": "MARION",
+      "count": 18
+    },
+    {
+      "name": "MUSGROVE",
+      "count": 2
+    },
+    {
+      "name": "SALLAH",
+      "count": 7
+    },
+    {
+      "name": "SATIPO",
+      "count": 2
+    },
+    {
+      "name": "SHLIEMANN",
+      "count": 10
+    }
+  ],
+  "links": [
+    {
+      "sentiment": 12,
+      "weight": 6,
+      "source": "BELLOQ",
+      "target": "INDY"
+    },
+    {
+      "sentiment": 1,
+      "weight": 3,
+      "source": "BELLOQ",
+      "target": "MARION"
+    },
+    {
+      "sentiment": -6,
+      "weight": 6,
+      "source": "BELLOQ",
+      "target": "SHLIEMANN"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BELZIG",
+      "target": "MARION"
+    },
+    {
+      "sentiment": 13,
+      "weight": 2,
+      "source": "BRODY",
+      "target": "EATON"
+    },
+    {
+      "sentiment": 39,
+      "weight": 5,
+      "source": "BRODY",
+      "target": "INDY"
+    },
+    {
+      "sentiment": 13,
+      "weight": 2,
+      "source": "BRODY",
+      "target": "MUSGROVE"
+    },
+    {
+      "sentiment": 13,
+      "weight": 2,
+      "source": "EATON",
+      "target": "INDY"
+    },
+    {
+      "sentiment": 13,
+      "weight": 2,
+      "source": "EATON",
+      "target": "MUSGROVE"
+    },
+    {
+      "sentiment": 4,
+      "weight": 2,
+      "source": "INDY",
+      "target": "KEHOE"
+    },
+    {
+      "sentiment": 8,
+      "weight": 14,
+      "source": "INDY",
+      "target": "MARION"
+    },
+    {
+      "sentiment": 13,
+      "weight": 2,
+      "source": "INDY",
+      "target": "MUSGROVE"
+    },
+    {
+      "sentiment": 0,
+      "weight": 6,
+      "source": "INDY",
+      "target": "SALLAH"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "INDY",
+      "target": "SATIPO"
+    },
+    {
+      "sentiment": 9,
+      "weight": 4,
+      "source": "INDY",
+      "target": "SHLIEMANN"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "MARION",
+      "target": "SALLAH"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "MARION",
+      "target": "SHLIEMANN"
+    }
+  ]
+}

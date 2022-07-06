@@ -1,0 +1,566 @@
+{
+  "nodes": [
+    {
+      "name": "ALIEN #1",
+      "count": 2
+    },
+    {
+      "name": "ALIEN #2",
+      "count": 2
+    },
+    {
+      "name": "ALIENS",
+      "count": 2
+    },
+    {
+      "name": "ANDY",
+      "count": 17
+    },
+    {
+      "name": "ATTENDANT",
+      "count": 2
+    },
+    {
+      "name": "BO PEEP",
+      "count": 11
+    },
+    {
+      "name": "BUZZ",
+      "count": 31
+    },
+    {
+      "name": "BUZZ (SAMPLED VOICE)",
+      "count": 2
+    },
+    {
+      "name": "HAMM",
+      "count": 13
+    },
+    {
+      "name": "HANNAH",
+      "count": 9
+    },
+    {
+      "name": "LENNY",
+      "count": 3
+    },
+    {
+      "name": "MR. POTATO HEAD",
+      "count": 18
+    },
+    {
+      "name": "MRS. DAVIS",
+      "count": 16
+    },
+    {
+      "name": "PIZZA DELIVERER",
+      "count": 2
+    },
+    {
+      "name": "REX",
+      "count": 17
+    },
+    {
+      "name": "ROBOT GUARDS",
+      "count": 2
+    },
+    {
+      "name": "SARGENT",
+      "count": 13
+    },
+    {
+      "name": "SID",
+      "count": 11
+    },
+    {
+      "name": "SID'S MOM",
+      "count": 2
+    },
+    {
+      "name": "SLINKY",
+      "count": 16
+    },
+    {
+      "name": "TOYS",
+      "count": 3
+    },
+    {
+      "name": "WOODY",
+      "count": 49
+    },
+    {
+      "name": "WOODY (VOICE BOX)",
+      "count": 5
+    }
+  ],
+  "links": [
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "ALIEN #1",
+      "target": "ALIEN #2"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "ALIEN #1",
+      "target": "ALIENS"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "ALIEN #1",
+      "target": "BUZZ"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "ALIEN #2",
+      "target": "ALIENS"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "ALIEN #2",
+      "target": "BUZZ"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "ALIENS",
+      "target": "BUZZ"
+    },
+    {
+      "sentiment": 2,
+      "weight": 6,
+      "source": "ANDY",
+      "target": "BO PEEP"
+    },
+    {
+      "sentiment": -19,
+      "weight": 7,
+      "source": "ANDY",
+      "target": "BUZZ"
+    },
+    {
+      "sentiment": 8,
+      "weight": 5,
+      "source": "ANDY",
+      "target": "HAMM"
+    },
+    {
+      "sentiment": 2,
+      "weight": 5,
+      "source": "ANDY",
+      "target": "MR. POTATO HEAD"
+    },
+    {
+      "sentiment": 9,
+      "weight": 12,
+      "source": "ANDY",
+      "target": "MRS. DAVIS"
+    },
+    {
+      "sentiment": 2,
+      "weight": 6,
+      "source": "ANDY",
+      "target": "REX"
+    },
+    {
+      "sentiment": 8,
+      "weight": 5,
+      "source": "ANDY",
+      "target": "SARGENT"
+    },
+    {
+      "sentiment": 11,
+      "weight": 3,
+      "source": "ANDY",
+      "target": "SLINKY"
+    },
+    {
+      "sentiment": 10,
+      "weight": 8,
+      "source": "ANDY",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": 20,
+      "weight": 2,
+      "source": "ANDY",
+      "target": "WOODY (VOICE BOX)"
+    },
+    {
+      "sentiment": -2,
+      "weight": 2,
+      "source": "ATTENDANT",
+      "target": "BUZZ"
+    },
+    {
+      "sentiment": -2,
+      "weight": 2,
+      "source": "ATTENDANT",
+      "target": "PIZZA DELIVERER"
+    },
+    {
+      "sentiment": -2,
+      "weight": 2,
+      "source": "ATTENDANT",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": -28,
+      "weight": 5,
+      "source": "BO PEEP",
+      "target": "BUZZ"
+    },
+    {
+      "sentiment": 3,
+      "weight": 6,
+      "source": "BO PEEP",
+      "target": "HAMM"
+    },
+    {
+      "sentiment": 5,
+      "weight": 2,
+      "source": "BO PEEP",
+      "target": "LENNY"
+    },
+    {
+      "sentiment": 0,
+      "weight": 8,
+      "source": "BO PEEP",
+      "target": "MR. POTATO HEAD"
+    },
+    {
+      "sentiment": -24,
+      "weight": 4,
+      "source": "BO PEEP",
+      "target": "MRS. DAVIS"
+    },
+    {
+      "sentiment": 9,
+      "weight": 10,
+      "source": "BO PEEP",
+      "target": "REX"
+    },
+    {
+      "sentiment": 8,
+      "weight": 4,
+      "source": "BO PEEP",
+      "target": "SARGENT"
+    },
+    {
+      "sentiment": 16,
+      "weight": 8,
+      "source": "BO PEEP",
+      "target": "SLINKY"
+    },
+    {
+      "sentiment": 5,
+      "weight": 2,
+      "source": "BO PEEP",
+      "target": "TOYS"
+    },
+    {
+      "sentiment": 6,
+      "weight": 7,
+      "source": "BO PEEP",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BUZZ",
+      "target": "BUZZ (SAMPLED VOICE)"
+    },
+    {
+      "sentiment": -26,
+      "weight": 5,
+      "source": "BUZZ",
+      "target": "HAMM"
+    },
+    {
+      "sentiment": -11,
+      "weight": 3,
+      "source": "BUZZ",
+      "target": "HANNAH"
+    },
+    {
+      "sentiment": -28,
+      "weight": 6,
+      "source": "BUZZ",
+      "target": "MR. POTATO HEAD"
+    },
+    {
+      "sentiment": -16,
+      "weight": 6,
+      "source": "BUZZ",
+      "target": "MRS. DAVIS"
+    },
+    {
+      "sentiment": -2,
+      "weight": 2,
+      "source": "BUZZ",
+      "target": "PIZZA DELIVERER"
+    },
+    {
+      "sentiment": -26,
+      "weight": 4,
+      "source": "BUZZ",
+      "target": "REX"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "BUZZ",
+      "target": "ROBOT GUARDS"
+    },
+    {
+      "sentiment": -21,
+      "weight": 3,
+      "source": "BUZZ",
+      "target": "SARGENT"
+    },
+    {
+      "sentiment": -6,
+      "weight": 7,
+      "source": "BUZZ",
+      "target": "SID"
+    },
+    {
+      "sentiment": -28,
+      "weight": 5,
+      "source": "BUZZ",
+      "target": "SLINKY"
+    },
+    {
+      "sentiment": -49,
+      "weight": 26,
+      "source": "BUZZ",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": 12,
+      "weight": 3,
+      "source": "BUZZ",
+      "target": "WOODY (VOICE BOX)"
+    },
+    {
+      "sentiment": -4,
+      "weight": 11,
+      "source": "HAMM",
+      "target": "MR. POTATO HEAD"
+    },
+    {
+      "sentiment": -18,
+      "weight": 3,
+      "source": "HAMM",
+      "target": "MRS. DAVIS"
+    },
+    {
+      "sentiment": 2,
+      "weight": 8,
+      "source": "HAMM",
+      "target": "REX"
+    },
+    {
+      "sentiment": 1,
+      "weight": 6,
+      "source": "HAMM",
+      "target": "SARGENT"
+    },
+    {
+      "sentiment": 0,
+      "weight": 2,
+      "source": "HAMM",
+      "target": "SID"
+    },
+    {
+      "sentiment": 10,
+      "weight": 5,
+      "source": "HAMM",
+      "target": "SLINKY"
+    },
+    {
+      "sentiment": -4,
+      "weight": 11,
+      "source": "HAMM",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": -13,
+      "weight": 2,
+      "source": "HANNAH",
+      "target": "SID"
+    },
+    {
+      "sentiment": -12,
+      "weight": 5,
+      "source": "HANNAH",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": 0,
+      "weight": 3,
+      "source": "LENNY",
+      "target": "REX"
+    },
+    {
+      "sentiment": 0,
+      "weight": 3,
+      "source": "LENNY",
+      "target": "SLINKY"
+    },
+    {
+      "sentiment": -24,
+      "weight": 3,
+      "source": "MR. POTATO HEAD",
+      "target": "MRS. DAVIS"
+    },
+    {
+      "sentiment": 6,
+      "weight": 11,
+      "source": "MR. POTATO HEAD",
+      "target": "REX"
+    },
+    {
+      "sentiment": 1,
+      "weight": 7,
+      "source": "MR. POTATO HEAD",
+      "target": "SARGENT"
+    },
+    {
+      "sentiment": 12,
+      "weight": 9,
+      "source": "MR. POTATO HEAD",
+      "target": "SLINKY"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "MR. POTATO HEAD",
+      "target": "TOYS"
+    },
+    {
+      "sentiment": -2,
+      "weight": 17,
+      "source": "MR. POTATO HEAD",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": -24,
+      "weight": 4,
+      "source": "MRS. DAVIS",
+      "target": "REX"
+    },
+    {
+      "sentiment": 11,
+      "weight": 3,
+      "source": "MRS. DAVIS",
+      "target": "SARGENT"
+    },
+    {
+      "sentiment": -18,
+      "weight": 2,
+      "source": "MRS. DAVIS",
+      "target": "SLINKY"
+    },
+    {
+      "sentiment": -16,
+      "weight": 6,
+      "source": "MRS. DAVIS",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": -2,
+      "weight": 2,
+      "source": "PIZZA DELIVERER",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": 3,
+      "weight": 5,
+      "source": "REX",
+      "target": "SARGENT"
+    },
+    {
+      "sentiment": 13,
+      "weight": 11,
+      "source": "REX",
+      "target": "SLINKY"
+    },
+    {
+      "sentiment": 4,
+      "weight": 3,
+      "source": "REX",
+      "target": "TOYS"
+    },
+    {
+      "sentiment": 12,
+      "weight": 11,
+      "source": "REX",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": 11,
+      "weight": 4,
+      "source": "SARGENT",
+      "target": "SLINKY"
+    },
+    {
+      "sentiment": 1,
+      "weight": 7,
+      "source": "SARGENT",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": -22,
+      "weight": 2,
+      "source": "SID'S MOM",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": -22,
+      "weight": 2,
+      "source": "SID",
+      "target": "SID'S MOM"
+    },
+    {
+      "sentiment": -28,
+      "weight": 8,
+      "source": "SID",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": 9,
+      "weight": 2,
+      "source": "SID",
+      "target": "WOODY (VOICE BOX)"
+    },
+    {
+      "sentiment": 4,
+      "weight": 3,
+      "source": "SLINKY",
+      "target": "TOYS"
+    },
+    {
+      "sentiment": 9,
+      "weight": 11,
+      "source": "SLINKY",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": -1,
+      "weight": 2,
+      "source": "TOYS",
+      "target": "WOODY"
+    },
+    {
+      "sentiment": 4,
+      "weight": 4,
+      "source": "WOODY",
+      "target": "WOODY (VOICE BOX)"
+    }
+  ]
+}
